@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Designo Agency Website Challenge</title>
+  </head>
+  <body>
+    <script type="module" src="/main.js"></script>
+    <header>
+      <div class="nav-container">
+        <a href="./index.html"><img src="./images/shared/desktop/logo-dark.png" style="height: 1.7rem;"></a>
+        <button class="mobile-nav-toggle" aria-controls="navigation" aria-expanded="false">
+          <img class="icon-hamburger" src="./images/shared/mobile/icon-hamburger.svg" alt="" style="display: block;" aria-hidden="true">
+          <img class="icon-close" src="./images/shared/mobile/icon-close.svg" style="display: none;" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="navigation" id="navigation">
+          <ul role="list" class="nav-list body-text text-primary-100">
+            <li><a href="./about.html">Our Company</a></li>
+            <li><a href="./locations.html">Locations</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+    <div class="contact-form bg-primary-200">
+      <div class="form-text">
+        <h1 class="heading-large-text text-primary-100">Contact Us</h1>
+        <p class="body-text text-primary-100">Ready to take it to the next level? 
+          Let's talk about your project or idea and find out how we can help your business grow. 
+          If you are looking for unique digital experiences that's relatable to your users, <br class="mobile-break">drop us a line.</p>
+      </div>
+      <div class="form-input-elements">
+        <form>
+          <div class="inputBox">
+            <input type="text" name="" required="required" placeholder="Name">
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" placeholder="Email Adress">
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" placeholder="Phone">
+          </div>
+          <div class="inputBox message">
+            <textarea rows="5" name="text" placeholder="Your Message"></textarea>
+          </div>
+          <div class="submit">
+            <button class="button-text primary-button bg-primary-100" type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="locations-container">
+      <div class="location" id="canada">
+        <div class="location-illustration">
+          <img src="./images/shared/desktop/illustration-canada.svg">
+        </div>
+        <div class="location-text">
+          <h3 class="heading-small-text text-primary-300">Canada</h3>
+          <button onclick="window.location.href='./locations.html'" class="primary-button button-text text-primary-100 bg-primary-200">See Location</button>
+        </div>
+      </div>
+      <div class="location" id="australia">
+        <div class="location-illustration">
+          <img src="./images/shared/desktop/illustration-australia.svg">
+        </div>
+        <div class="location-text">
+          <h3 class="heading-small-text text-primary-300">Australia</h3>
+          <button onclick="window.location.href='./locations.html'" class="primary-button button-text text-primary-100 bg-primary-200">See Location</button>
+        </div>
+      </div>
+      <div class="location" id="united-kingdom">
+        <div class="location-illustration">
+          <img src="./images/shared/desktop/illustration-united-kingdom.svg">
+        </div>
+        <div class="location-text">
+          <h3 class="heading-small-text text-primary-300">United Kingdom</h3>
+          <button onclick="window.location.href='./locations.html'" class="primary-button button-text text-primary-100 bg-primary-200">See Location</button>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="bg-primary-300" style="padding-top: 2rem;">
+      <div class="bot-nav-container">
+        <div class="logo">
+          <img src="./images/shared/desktop/logo-light.png" style="height: 1.7rem">
+        </div>
+        <hr class="for-mobile">
+        <nav>
+          <ul class="bot-nav-list nav-text text-primary-100">
+            <li><a href="./about.html">Our Company</a></li>
+            <li><a href="./locations.html">Locations</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr class="not-for-mobile">
+      <div class="info-container">
+        <div class="info">
+          <p class="text-primary-100 body-text"><b style="font-weight: 600;">Designo Central Office</b>
+            <br>3886 Wellington Street
+            <br>Toronto, Ontario M9C 3J5</p>
+        </div>
+        <div class="info">
+          <p class="text-primary-100 body-text"><b style="font-weight: 600;">Contact Us (Central Office)</b>
+            <br>P : +1 253-863-8967
+            <br>M : contact@designo.co</p>
+        </div>
+        <!-- <div class="info">
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li><a aria-label="facebook" href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/shared/social-icons.svg#icon-facebook"></use>
+            </svg></a>
+            </li>
+            <li><a aria-label="instagram" href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/shared/social-icons.svg#icon-instagram"></use>
+            </svg></a>
+            </li>
+
+
+          </ul>
+        </div> -->
+      </div>
+    </footer>
+  </body>
+</html>

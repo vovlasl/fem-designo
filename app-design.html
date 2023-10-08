@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Designo Agency Website Challenge</title>
+  </head>
+  <body>
+    <script type="module" src="/main.js"></script>
+    <header>
+      <div class="nav-container">
+        <a href="./index.html"><img src="./images/shared/desktop/logo-dark.png" style="height: 1.7rem;"></a>
+        <button class="mobile-nav-toggle" aria-controls="navigation" aria-expanded="false">
+          <img class="icon-hamburger" src="./images/shared/mobile/icon-hamburger.svg" alt="" style="display: block;" aria-hidden="true">
+          <img class="icon-close" src="./images/shared/mobile/icon-close.svg" style="display: none;" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="navigation" id="navigation">
+          <ul role="list" class="nav-list body-text text-primary-100">
+            <li><a href="./about.html">Our Company</a></li>
+            <li><a href="./locations.html">Locations</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="presentation-card bg-primary-200">
+        <div class="presentation-card-text">
+          <h1 class="heading-large-text text-primary-100">App Design</h1>
+          <p class="body-text text-primary-100">Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="projects-container">
+          <a href="#" class="project">
+            <div class="project-thumbnail">
+              <img src="./images/app-design/desktop/image-airfilter.jpg">
+            </div>
+            <div class="project-text">
+              <h3 class="heading-small-text text-primary-200">Airfilter</h3>
+              <p class="body-text text-primary-300">Solving the problem of poor indoor air quality by filtering the air</p>
+            </div>
+          </a>
+          <a href="#" class="project">
+            <div class="project-thumbnail">
+              <img src="./images/app-design/desktop/image-eyecam.jpg">
+            </div>
+            <div class="project-text">
+              <h3 class="heading-small-text text-primary-200">Eyecam</h3>
+              <p class="body-text text-primary-300">Product that lets you edit your favorite photos and videos at any time</p>
+            </div>
+          </a>
+          <a href="#" class="project">
+            <div class="project-thumbnail">
+              <img src="./images/app-design/desktop/image-faceit.jpg">
+            </div>
+            <div class="project-text">
+              <h3 class="heading-small-text text-primary-200">Faceit</h3>
+              <p class="body-text text-primary-300">Get to meet your favorite internet superstar with the faceit app</p>
+            </div>
+          </a>
+          <a href="#" class="project">
+            <div class="project-thumbnail">
+              <img src="./images/app-design/desktop/image-todo.jpg">
+            </div>
+            <div class="project-text">
+              <h3 class="heading-small-text text-primary-200">Todo</h3>
+              <p class="body-text text-primary-300">A todo app that features cloud sync with light and dark mode</p>
+            </div>
+          </a>
+          <a href="#" class="project">
+            <div class="project-thumbnail">
+              <img src="./images/app-design/desktop/image-loopstudios.jpg">
+            </div>
+            <div class="project-text">
+              <h3 class="heading-small-text text-primary-200">Loopstudios</h3>
+              <p class="body-text text-primary-300">A VR experience app made for Loopstudios</p>
+            </div>
+          </a>
+        </div>
+        <div class="designs-container" id="design-exception">
+          <a href="./web-design.html" class="design-card" id="web-small">
+            <img src="./images/home/mobile/image-web-design.jpg">
+            <div class="design-card-text">
+              <h2 class="heading-medium-text text-primary-100">WEB DESIGN</h2>
+              <p class="body-text text-primary-100">View projects
+                <svg class="icon">
+                  <use xlink:href="./images/shared/desktop/icon-arrow.svg#icon-right-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </a>
+          <a href="./graphic-design.html" class="design-card" id="graphic">
+            <img src="./images/home/mobile/image-graphic-design.jpg">
+            <div class="design-card-text">
+              <h2 class="heading-medium-text text-primary-100">GRAPHIC DESIGN</h2>
+              <p class="body-text text-primary-100">View projects
+                <svg class="icon">
+                  <use xlink:href="./images/shared/desktop/icon-arrow.svg#icon-right-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </a>
+        </div>
+        <div class="get-in-touch-card bg-primary-200">
+          <div>
+            <h2 class="heading-medium-text text-primary-100">Let's talk about your project</h2>
+            <p class="body-text text-primary-100">Ready to take it to the next level? 
+              Contact us today and find out how our expertise can help your business grow.
+            </p>
+          </div>
+          <button onclick="window.location.href='./about.html'" class="primary-button button-text bg-primary-100">Get in touch</button>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-primary-300">
+      <div class="bot-nav-container">
+        <div class="logo">
+          <img src="./images/shared/desktop/logo-light.png" style="height: 1.7rem">
+        </div>
+        <hr class="for-mobile">
+        <nav>
+          <ul class="bot-nav-list nav-text text-primary-100">
+            <li><a href="./about.html">Our Company</a></li>
+            <li><a href="./locations.html">Locations</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr class="not-for-mobile">
+      <div class="info-container">
+        <div class="info">
+          <p class="text-primary-100 body-text"><b style="font-weight: 600;">Designo Central Office</b>
+            <br>3886 Wellington Street
+            <br>Toronto, Ontario M9C 3J5</p>
+        </div>
+        <div class="info">
+          <p class="text-primary-100 body-text"><b style="font-weight: 600;">Contact Us (Central Office)</b>
+            <br>P : +1 253-863-8967
+            <br>M : contact@designo.co</p>
+        </div>
+        <!-- <div class="info">
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li><a aria-label="facebook" href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/shared/social-icons.svg#icon-facebook"></use>
+            </svg></a>
+            </li>
+            <li><a aria-label="instagram" href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/shared/social-icons.svg#icon-instagram"></use>
+            </svg></a>
+            </li>
+
+
+          </ul>
+        </div> -->
+      </div>
+    </footer>
+  </body>
+</html>
