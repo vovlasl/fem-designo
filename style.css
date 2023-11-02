@@ -999,7 +999,7 @@ footer {
 
   .phone::after {
     left: auto;
-    transform: translateX(10rem);
+    transform: translateX(-31rem);
 
     aspect-ratio: 1/1.28;
   }
