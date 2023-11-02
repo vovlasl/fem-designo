@@ -998,8 +998,8 @@ footer {
   }
 
   .phone::after {
-    left: 80%;
-    transform: translateX(-80%);
+    left: auto;
+    transform: translateX(10rem);
 
     aspect-ratio: 1/1.28;
   }
